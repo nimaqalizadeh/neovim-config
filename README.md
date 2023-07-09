@@ -59,7 +59,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvi
  ### Copy Configurations
  Copy repo into `~/.config/nvim/` :
  ```bash
- $ git clone https://github.com/RYNEQ/nvim-config ~/.config/nvim/
+ $ git clone https://github.com/nimaqalizadeh/neovim-config ~/.config/nvim/
  ```
 
  ### Install plugins
