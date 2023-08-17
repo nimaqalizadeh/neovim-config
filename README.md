@@ -9,6 +9,30 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt update 
 sudo apt install neovim
 ```
+## Installing from download
+Download stable release for linux nvim.linux64.tar.gz
+
+```bash
+mkdir ~/.local/bin
+mv nvim-linux64.tar.gz ~/.local/bin
+tar xzvf nvim-linux64.tar.gz
+ln -s ./nvim-linux64/bin/nvim ./nvim
+````
+Add ~/.local/bin to PATH
+
+```bash
+vi ~/.bashrc
+```
+Add to path and exit vi
+
+```bash
+export="$HOME/.local/bin:$PATH"
+```
+and then:
+```bash
+source .bashrc
+```
+
 Check version:
 ```bash
 
